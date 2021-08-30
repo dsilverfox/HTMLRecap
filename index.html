@@ -4,9 +4,83 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTMLRecap Challenge</title>
 </head>
 <body>
-    
+    <p>WHY is this the only thing I can get to embed without an error?!</p>
+    <iframe src="https://www.example.com/"
+        frameborder="0"
+        width="560" height="315"
+        allowfullscreen>
+    </iframe>
+<div>    
+    <form>
+        <fieldset>
+            <legend>Initial Character Creation</legend>
+            <p>
+             <input type="radio" name="PC"
+             id="PC" value="PC"/>
+         <label for="PC">Player Character</label>  
+            </p>
+            <p>
+                <input type="radio" name="NPC"
+                id="NPC" value="NPC"/>
+                <label for="NPC">Non-Player Character</label>
+            </p>
+            <br/>
+            <hr/> 
+            <br/>
+            <table style="border: solid 1px black; padding: .5rem;">
+                <tr>
+                    <th style="border: solid 1px black;">Family</th>
+                    <th style="border: solid 1px black;">City</th>
+                    <th style="border: solid 1px black;">Species</th>
+                    <th style="border: solid 1px black;">Human/Supernatural</th>
+                </tr>
+                <tr>
+                    <td style="border: solid 1px black;"><input/></td>
+                    <td>
+                        <input type="radio" name="Carver"
+                        id="Carver" value="Carver"/>
+                        <label for="Carver">Carver</label>
+                        <br/>
+                        <input type="radio" name="Sandringham"
+                        id="Sandringham" value="Sandringham"/>
+                        <label for="Sandringham">Sandringham</label> 
+                    </td>    
+                    <td><input/></td>
+                    <td>
+                        <input type="checkbox"
+                        id="human" value="human"/>
+                    <label for="human">Human</label>
+                    <hr/>
+                        <input type="checkbox"
+                        id="supernatural" value="supernatural"/>
+                    <label for="supernatural">Supernatural</label>
+                    </td>
+                </tr>
+            </table>
+            <br/>
+            <div>
+                <label>Description:</label>
+                <textarea style="border:purple 2px solid"></textarea>
+            </div>
+            <br/>
+            <br/>
+            <p>Designed by Devon</p>
+        </fieldset> 
+    </form> 
+</div> 
+    <nav>
+        <a href="https://www.amazon.com/Shadows-Redefined-Passion-Literary-Anthology-ebook/dp/B09DBS6TNR/ref=sr_1_1?dchild=1&keywords=shadows+redefined&qid=1630274110&sr=8-1" target="_blank">Shadows Redefined - Avery Graycastle</a>
+    </nav>
+    <footer style="background-color: gray;">
+        <p>Copyright 2006 The Example Company</p>
+        <p>
+            <a href="#about">About Us</a>
+            <a href="#policy">Policy</a>
+            <a href="#contact">Contact Us</a>
+        </p>
+    </footer>
 </body>
 </html>
